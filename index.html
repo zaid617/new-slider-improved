@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Document</title>
 </head>
 
@@ -13,9 +17,9 @@
     <header>
         <h1>Riaz's Show Room</h1>
     </header>
-
-    <img src="./img/pic1.jpg" id="slider" onclick="handler(event)" onmouseover="over()" onmouseout="out()">
-
+    <div id="imgBox">
+    <img src="./img/pic1.jpg" id="slider" class="animate__animated animate__fadeInRight" onclick="handler(event)" onmouseover="over()" onmouseout="out()">
+    </div>
     <div class="para">
         <h1 class="black">About Us</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit reprehenderit rem voluptatum impedit
